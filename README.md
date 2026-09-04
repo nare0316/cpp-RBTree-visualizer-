@@ -2,6 +2,9 @@
 
 A C++ templated Red-Black Tree implementation with an integrated SFML graphical visualization tool.
 
+✔️ When inserting sequential elements into a Binary Search Tree (BST), the tree degrades into a standard linked list, and the time complexity of the search algorithm can drop to $O(n)$. On the other hand, the strict balancing of an AVL tree can significantly slow down operations. Red-Black (RB) Trees, however, find the golden mean. By using red and black colors, self-balancing provides a looser balance compared to AVL, but offers higher performance during data insertion and deletion processes.
+✔️ For the most part, C++ STL containers such as std::map, std::set, std::multimap, and std::multiset are implemented using Red-Black trees, as are Java's TreeMap and TreeSet. Additionally, the Linux kernel's Completely Fair Scheduler module, which is responsible for distributing CPU time allocated to running programs, uses an RB tree for its operation.
+
 A red-black tree is a binary search tree that satisûes the following red-black
 properties:
 
