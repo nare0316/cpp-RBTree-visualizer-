@@ -6,7 +6,7 @@ A C++ templated Red-Black Tree implementation with an integrated SFML graphical 
 
 ✔️ For the most part, C++ STL containers such as std::map, std::set, std::multimap, and std::multiset are implemented using Red-Black trees, as are Java's TreeMap and TreeSet. Additionally, the Linux kernel's Completely Fair Scheduler module, which is responsible for distributing CPU time allocated to running programs, uses an RB tree for its operation.
 
-A red-black tree is a binary search tree that satisûes the following red-black
+✔️ A red-black tree is a binary search tree that satisûes the following red-black
 properties:
 
     1. Every node is either red or black.
